@@ -6,12 +6,15 @@ class Home extends CI_Controller{
     parent::__construct();
   }
  
-  public function index(){
-  	$ang = Models\Ang::first();
-  	$str = $ang->ang_desc;
-    echo $this->find_word_pos($str, "॥ਭੁਖਿਆ"); 
-		
-    $this->load->view('home',['data' => $ang]);
+  public function index($id=null){
+  	$id=1;
+  	$ang = Models\Ang::where('ang_no',$id)->get();
+  	
+    $this->load->view('home',
+    	[
+    	'angData' => $ang,
+    	'ang_no' => $id
+    	]);
   }
   
   function find_word_pos($string, $word) {
