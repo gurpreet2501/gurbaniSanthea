@@ -3,22 +3,22 @@
 <html>
 <head>
     <title>Admin</title>
+ <script src="<?=base_url('js/jquery-1.10.2.js');?>"></script>
+ <script src="<?=base_url('js/bootstrap.min.js');?>"></script>
  <meta charset="utf-8" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css">
  <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/chosen.css')?>">
-  <link href="<?=base_url('assets/css/bootstrap.min.css')?>" rel="stylesheet">
+  <link href="<?=base_url('assets/css/bootstrap.min.css')?>" rel="stylesheet" />
  <link href="<?=base_url('assets/css/print.css').'?244313124234'?>" rel="stylesheet">
 <?php 
 if(isset($css_files)){
     foreach($css_files as $file): ?>
-    	<link type="text/css" rel="stylesheet" href="<?php echo $file; ?>" />
+      <link type="text/css" rel="stylesheet" href="<?php echo $file; ?>" />
     <?php endforeach; 
  }
 ?>
  <link href="<?=base_url('css/sb-admin.css').'?124234'?>" rel="stylesheet">
- <script src="<?=base_url('js/jquery-1.10.2.js');?>"></script>
- <script src="<?=base_url('js/bootstrap.min.js');?>"></script>
 
 <?php if(isset($js_files)){ foreach($js_files as $file): ?>
 	<script src="<?php echo $file; ?>"></script>
