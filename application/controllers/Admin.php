@@ -59,11 +59,11 @@ class Admin extends CI_Controller {
 
   function ang_list($value = '', $primary_key = null)
   {  
-    $options = "";
+    $options = "<option></option>";
     foreach (range(1,1430) as $key => $v) {
       $options.="<option>".$v."</option>";
     }
-    return "<select name='ang' class='form-control ang_select_on_rep_page'>".$options."</select>";
+    return "<select  class='form-control ang_select_on_rep_page'>".$options."</select>";
   }
 
   function ang_filtered_lines($value = '', $primary_key = null)
