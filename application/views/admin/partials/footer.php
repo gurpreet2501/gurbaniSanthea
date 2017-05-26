@@ -14,6 +14,7 @@
     <!-- Morris Charts JavaScript -->
  <script src="<?=base_url('assets/js/form-validator.js')?>"></script>
  <script type="text/javascript" src="<?=base_url('assets/js/chosen.jquery.js')?>"></script>
+ <script type="text/javascript" src="<?=base_url('js/drop_down_filter.js')?>"></script>
  <script type="text/javascript">
   jQuery(function($){
       $('.chosen-select').chosen();
