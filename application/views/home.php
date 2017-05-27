@@ -7,8 +7,8 @@
 					<div class="title clearfix"><h1 class="pull-right">ਅੰਗ <?=$ang_no?></h1></div>
 					<div class="border-frame">
 						<div class="ang_display" data-ang="<?=$ang_no?>">
-						<?php foreach($angData as $line):?>
-							<div class="lines line_<?=$line->line_no?>"><?=$line->text?></div>
+						<?php foreach($angData->lines as $line): ?>
+							<span class="lines line_<?=$line->line_no?>"><?=$line->text?></span>
 						<?php endforeach; ?>
 						</div>	
 					</div>

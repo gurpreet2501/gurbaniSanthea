@@ -10,6 +10,6 @@ class Ang extends Model{
   protected $table  = 'ang';
 
   function lines(){
-  	return $this->hasMany(AngLines::class, 'foreign_key', 'local_key');
+  	return $this->hasMany(AngLines::class, 'ang_id', 'ang');
   }
 }
