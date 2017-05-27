@@ -21,7 +21,6 @@ class Admin extends CI_Controller {
   public function ang($lang=false){
    
     $crud = new grocery_CRUD();
-    $crud->set_theme('datatables');
     $crud->set_table('ang');
     $crud->field_type('created_at','hidden',date('Y-m-d H:i:s'));
     $crud->field_type('updated_at','hidden');
@@ -32,7 +31,6 @@ class Admin extends CI_Controller {
   public function ang_lines($lang=false){
    
     $crud = new grocery_CRUD();
-    $crud->set_theme('datatables');
     $crud->set_table('ang_lines');
     $crud->set_relation('ang_id','ang','ang');
     $crud->field_type('created_at','hidden',date('Y-m-d H:i:s'));
@@ -44,7 +42,6 @@ class Admin extends CI_Controller {
   public function replacements($lang=false){
    
     $crud = new grocery_CRUD();
-    $crud->set_theme('datatables');
     $crud->set_table('replacements');
     $crud->fields('original_word','replacement','description','audio','ang','line_id');
     $crud->set_field_upload('audio','assets/uploads/files');

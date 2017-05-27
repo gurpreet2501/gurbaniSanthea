@@ -8,7 +8,7 @@ class Home extends CI_Controller{
  
   public function index($id=null){
   	$id=1;
-  	$ang = Models\Ang::where('ang_no',$id)->get();
+  	$ang = Models\Ang::where('ang',$id)->with('lines')->get();
   	
     $this->load->view('home',
     	[
