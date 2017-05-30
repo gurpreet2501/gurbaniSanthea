@@ -66,6 +66,7 @@
 	require_once __DIR__.'/boot-request.php';
 	require_once __DIR__.'/boot-extra.php';
 	require_once __DIR__.'/boot-eloquent.php';
+	require_once __DIR__.'/insertRecords.php';
 
 
 /*

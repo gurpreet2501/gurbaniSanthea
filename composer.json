@@ -16,7 +16,8 @@
         "patricktalmadge/bootstrapper": "^5.9",
         "symfony/dependency-injection": "^3.1",
         "illuminate/pagination": "^5.2",
-        "guzzlehttp/guzzle": "^6.2"
+        "guzzlehttp/guzzle": "^6.2",
+        "paquettg/php-html-parser": "^1.7"
     },
     "autoload": {
       "psr-4": {

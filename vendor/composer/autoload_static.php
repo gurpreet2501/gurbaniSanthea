@@ -11,6 +11,9 @@ class ComposerStaticInitfe502ea7a7a684b1b288cea51c4c9906
         '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
         '752af1c2bdb339e8474c3c31b22b7d54' => __DIR__ . '/..' . '/illuminate/html/helpers.php',
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -32,6 +35,7 @@ class ComposerStaticInitfe502ea7a7a684b1b288cea51c4c9906
         ),
         'P' => 
         array (
+            'Psr\\Http\\Message\\' => 17,
             'Phinx\\' => 6,
         ),
         'L' => 
@@ -45,6 +49,7 @@ class ComposerStaticInitfe502ea7a7a684b1b288cea51c4c9906
             'Illuminate\\Session\\' => 19,
             'Illuminate\\Routing\\' => 19,
             'Illuminate\\Pipeline\\' => 20,
+            'Illuminate\\Pagination\\' => 22,
             'Illuminate\\Http\\' => 16,
             'Illuminate\\Html\\' => 16,
             'Illuminate\\Filesystem\\' => 22,
@@ -57,6 +62,12 @@ class ComposerStaticInitfe502ea7a7a684b1b288cea51c4c9906
         'H' => 
         array (
             'HtmlObject\\' => 11,
+        ),
+        'G' => 
+        array (
+            'GuzzleHttp\\Psr7\\' => 16,
+            'GuzzleHttp\\Promise\\' => 19,
+            'GuzzleHttp\\' => 11,
         ),
         'F' => 
         array (
@@ -133,6 +144,10 @@ class ComposerStaticInitfe502ea7a7a684b1b288cea51c4c9906
         array (
             0 => __DIR__ . '/..' . '/symfony/config',
         ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
         'Phinx\\' => 
         array (
             0 => __DIR__ . '/..' . '/robmorgan/phinx/src/Phinx',
@@ -160,6 +175,10 @@ class ComposerStaticInitfe502ea7a7a684b1b288cea51c4c9906
         'Illuminate\\Pipeline\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/pipeline',
+        ),
+        'Illuminate\\Pagination\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/pagination',
         ),
         'Illuminate\\Http\\' => 
         array (
@@ -197,6 +216,18 @@ class ComposerStaticInitfe502ea7a7a684b1b288cea51c4c9906
         array (
             0 => __DIR__ . '/..' . '/anahkiasen/html-object/src',
         ),
+        'GuzzleHttp\\Psr7\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
+        'GuzzleHttp\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
+        ),
+        'GuzzleHttp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
         'Former\\' => 
         array (
             0 => __DIR__ . '/..' . '/anahkiasen/former/src/Former',
@@ -221,6 +252,13 @@ class ComposerStaticInitfe502ea7a7a684b1b288cea51c4c9906
     );
 
     public static $prefixesPsr0 = array (
+        's' => 
+        array (
+            'stringEncode' => 
+            array (
+                0 => __DIR__ . '/..' . '/paquettg/string-encode/src',
+            ),
+        ),
         'P' => 
         array (
             'Psr\\Log\\' => 
@@ -230,6 +268,10 @@ class ComposerStaticInitfe502ea7a7a684b1b288cea51c4c9906
             'Pimple' => 
             array (
                 0 => __DIR__ . '/..' . '/pimple/pimple/src',
+            ),
+            'PHPHtmlParser' => 
+            array (
+                0 => __DIR__ . '/..' . '/paquettg/php-html-parser/src',
             ),
         ),
         'D' => 

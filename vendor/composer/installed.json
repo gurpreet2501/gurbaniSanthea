@@ -20,7 +20,7 @@
         "suggest": {
             "ext-mbstring": "For best performance"
         },
-        "time": "2016-01-20 09:13:37",
+        "time": "2016-01-20T09:13:37+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -93,7 +93,7 @@
             "symfony/config": "",
             "symfony/yaml": ""
         },
-        "time": "2016-03-25 01:41:20",
+        "time": "2016-03-25T01:41:20+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -148,7 +148,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.0|~5.0"
         },
-        "time": "2015-11-04 20:07:17",
+        "time": "2015-11-04T20:07:17+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -196,7 +196,7 @@
         "require-dev": {
             "phpunit/phpunit": "4.*"
         },
-        "time": "2015-11-06 14:35:42",
+        "time": "2015-11-06T14:35:42+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -262,7 +262,7 @@
         "require": {
             "php": ">=5.5.9"
         },
-        "time": "2016-03-07 20:37:17",
+        "time": "2016-03-07T20:37:17+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -312,7 +312,7 @@
         "suggest": {
             "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
         },
-        "time": "2016-03-18 20:34:03",
+        "time": "2016-03-18T20:34:03+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -367,7 +367,7 @@
             "symfony/process": "Required to use the composer class (2.8.*|3.0.*).",
             "symfony/var-dumper": "Improves the dd function (2.8.*|3.0.*)."
         },
-        "time": "2016-04-21 13:28:36",
+        "time": "2016-04-21T13:28:36+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -414,7 +414,7 @@
         "require": {
             "php": ">=5.5.9"
         },
-        "time": "2016-06-29 05:41:56",
+        "time": "2016-06-29T05:41:56+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -476,7 +476,7 @@
             "symfony/event-dispatcher": "",
             "symfony/process": ""
         },
-        "time": "2016-06-29 07:02:31",
+        "time": "2016-06-29T07:02:31+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -527,7 +527,7 @@
         "require": {
             "php": ">=5.5.9"
         },
-        "time": "2016-06-29 05:41:56",
+        "time": "2016-06-29T05:41:56+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -582,7 +582,7 @@
         "suggest": {
             "symfony/yaml": "To use the yaml reference dumper"
         },
-        "time": "2016-06-29 05:41:56",
+        "time": "2016-06-29T05:41:56+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -639,7 +639,7 @@
         "require-dev": {
             "phpunit/phpunit": "^4.0|^5.0"
         },
-        "time": "2016-06-23 15:27:01",
+        "time": "2016-06-23T15:27:01+00:00",
         "bin": [
             "bin/phinx"
         ],
@@ -713,7 +713,7 @@
             "illuminate/filesystem": "Required to use the migrations (5.2.*).",
             "illuminate/pagination": "Required to paginate the result set (5.2.*)."
         },
-        "time": "2016-06-06 13:12:46",
+        "time": "2016-06-06T13:12:46+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -766,7 +766,7 @@
             "illuminate/support": "5.2.*",
             "php": ">=5.5.9"
         },
-        "time": "2016-01-01 01:00:19",
+        "time": "2016-01-01T01:00:19+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -811,7 +811,7 @@
             "illuminate/contracts": "5.2.*",
             "php": ">=5.5.9"
         },
-        "time": "2016-05-29 02:18:23",
+        "time": "2016-05-29T02:18:23+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -855,7 +855,7 @@
         "require": {
             "php": ">=5.5.9"
         },
-        "time": "2016-06-29 05:40:00",
+        "time": "2016-06-29T05:40:00+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -914,7 +914,7 @@
             "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (~1.0).",
             "league/flysystem-rackspace": "Required to use the Flysystem Rackspace driver (~1.0)."
         },
-        "time": "2016-05-31 15:08:27",
+        "time": "2016-05-31T15:08:27+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -961,7 +961,7 @@
             "php": ">=5.5.9",
             "symfony/translation": "2.8.*|3.0.*"
         },
-        "time": "2016-04-21 13:19:18",
+        "time": "2016-04-21T13:19:18+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1009,7 +1009,7 @@
         "require-dev": {
             "symfony/expression-language": "~2.8|~3.0"
         },
-        "time": "2016-06-29 07:02:21",
+        "time": "2016-06-29T07:02:21+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1068,7 +1068,7 @@
         "suggest": {
             "illuminate/console": "Required to use the session:table command (5.2.*)."
         },
-        "time": "2016-06-10 22:38:27",
+        "time": "2016-06-10T22:38:27+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1132,7 +1132,7 @@
             "symfony/http-foundation": "For using a Symfony Request object",
             "symfony/yaml": "For using the YAML loader"
         },
-        "time": "2016-06-29 05:40:00",
+        "time": "2016-06-29T05:40:00+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1200,7 +1200,7 @@
             "symfony/dependency-injection": "",
             "symfony/http-kernel": ""
         },
-        "time": "2016-06-29 05:41:56",
+        "time": "2016-06-29T05:41:56+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1248,7 +1248,7 @@
             "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
             "shasum": ""
         },
-        "time": "2012-12-21 11:40:51",
+        "time": "2012-12-21T11:40:51+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -1299,7 +1299,7 @@
             "symfony/class-loader": "~2.8|~3.0",
             "symfony/http-kernel": "~2.8|~3.0"
         },
-        "time": "2016-06-29 05:40:00",
+        "time": "2016-06-29T05:40:00+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1383,7 +1383,7 @@
             "symfony/finder": "",
             "symfony/var-dumper": ""
         },
-        "time": "2016-06-30 16:30:17",
+        "time": "2016-06-30T16:30:17+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1436,7 +1436,7 @@
             "illuminate/support": "5.2.*",
             "php": ">=5.5.9"
         },
-        "time": "2016-04-08 04:24:31",
+        "time": "2016-04-08T04:24:31+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1484,7 +1484,7 @@
             "symfony/http-foundation": "2.8.*|3.0.*",
             "symfony/http-kernel": "2.8.*|3.0.*"
         },
-        "time": "2016-05-23 14:30:21",
+        "time": "2016-05-23T14:30:21+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1542,7 +1542,7 @@
             "illuminate/console": "Required to use the make commands (5.2.*).",
             "symfony/psr-http-message-bridge": "Required to psr7 bridging features (0.2.*)."
         },
-        "time": "2016-05-29 20:04:58",
+        "time": "2016-05-29T20:04:58+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1589,7 +1589,7 @@
             "illuminate/support": "5.2.*",
             "php": ">=5.5.9"
         },
-        "time": "2015-06-22 20:36:58",
+        "time": "2015-06-22T20:36:58+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1636,7 +1636,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.5"
         },
-        "time": "2015-03-04 17:12:08",
+        "time": "2015-03-04T17:12:08+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -1686,7 +1686,7 @@
             "mockery/mockery": "~0.9.1",
             "phpunit/phpunit": "~4"
         },
-        "time": "2016-04-18 15:33:06",
+        "time": "2016-04-18T15:33:06+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -1735,7 +1735,7 @@
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2015-09-11 15:10:35",
+        "time": "2015-09-11T15:10:35+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1783,7 +1783,7 @@
         "replace": {
             "twitter/bootstrap": "self.version"
         },
-        "time": "2015-11-24 19:37:05",
+        "time": "2015-11-24T19:37:05+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1839,7 +1839,7 @@
             "illuminate/support": "~5.0",
             "php": ">=5.4.0"
         },
-        "time": "2015-01-01 16:31:18",
+        "time": "2015-01-01T16:31:18+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1896,7 +1896,7 @@
             "phpspec/phpspec": "~2",
             "squizlabs/php_codesniffer": "~2.3"
         },
-        "time": "2015-11-28 16:59:03",
+        "time": "2015-11-28T16:59:03+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -1958,7 +1958,7 @@
             "symfony/proxy-manager-bridge": "Generate service proxies to lazy load them",
             "symfony/yaml": ""
         },
-        "time": "2016-06-29 05:42:25",
+        "time": "2016-06-29T05:42:25+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2011,7 +2011,7 @@
             "illuminate/support": "5.2.*",
             "php": ">=5.5.9"
         },
-        "time": "2016-05-30 02:43:18",
+        "time": "2016-05-30T02:43:18+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2058,7 +2058,7 @@
         "require-dev": {
             "phpunit/phpunit": "^4.0"
         },
-        "time": "2016-12-20 10:07:11",
+        "time": "2016-12-20T10:07:11+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2108,7 +2108,7 @@
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2016-08-06 14:39:51",
+        "time": "2016-08-06T14:39:51+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2167,7 +2167,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.0"
         },
-        "time": "2016-06-24 23:00:38",
+        "time": "2016-06-24T23:00:38+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2227,7 +2227,7 @@
             "phpunit/phpunit": "^4.0",
             "psr/log": "^1.0"
         },
-        "time": "2016-10-08 15:01:37",
+        "time": "2016-10-08T15:01:37+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2264,6 +2264,105 @@
             "http client",
             "rest",
             "web service"
+        ]
+    },
+    {
+        "name": "paquettg/string-encode",
+        "version": "0.1.1",
+        "version_normalized": "0.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/paquettg/string-encoder.git",
+            "reference": "cf08343649701979f581c1601d01247fa3782439"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/paquettg/string-encoder/zipball/cf08343649701979f581c1601d01247fa3782439",
+            "reference": "cf08343649701979f581c1601d01247fa3782439",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2014-05-29T18:38:09+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "stringEncode": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gilles Paquette",
+                "email": "paquettg@gmail.com",
+                "homepage": "http://gillespaquette.ca"
+            }
+        ],
+        "description": "Facilitating the process of altering string encoding in PHP.",
+        "homepage": "https://github.com/paquettg/string-encoder",
+        "keywords": [
+            "charset",
+            "encoding",
+            "string"
+        ]
+    },
+    {
+        "name": "paquettg/php-html-parser",
+        "version": "1.7.0",
+        "version_normalized": "1.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/paquettg/php-html-parser.git",
+            "reference": "18845e09831dd0772b88b51e788a4f74c701224c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/paquettg/php-html-parser/zipball/18845e09831dd0772b88b51e788a4f74c701224c",
+            "reference": "18845e09831dd0772b88b51e788a4f74c701224c",
+            "shasum": ""
+        },
+        "require": {
+            "paquettg/string-encode": "~0.1.0",
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "mockery/mockery": "~0.9.0",
+            "phpunit/phpunit": "~4.8.0",
+            "satooshi/php-coveralls": "~0.6.0"
+        },
+        "time": "2016-04-06T15:24:40+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "PHPHtmlParser": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gilles Paquette",
+                "email": "paquettg@gmail.com",
+                "homepage": "http://gillespaquette.ca"
+            }
+        ],
+        "description": "An HTML DOM parser. It allows you to manipulate HTML. Find tags on an HTML page with selectors just like jQuery.",
+        "homepage": "https://github.com/paquettg/php-html-parser",
+        "keywords": [
+            "dom",
+            "html",
+            "parser"
         ]
     }
 ]
