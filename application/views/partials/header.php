@@ -25,7 +25,7 @@
 			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav">
-			        <li><a href="<?=site_url()?>">Home</a></li>
+			        <li><a href="<?=site_url('home/index/1')?>">Home</a></li>
 			      </ul>
 			     
 			    </div><!-- /.navbar-collapse -->

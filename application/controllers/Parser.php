@@ -36,7 +36,7 @@ class Parser extends CI_Controller{
       
       $dir    = 'files';
       $files = scandir($dir);
-
+      set_time_limit(-1);
       foreach ($files as $key => $f) {
         if($key==0 || $key==1)
           continue;
@@ -69,7 +69,7 @@ class Parser extends CI_Controller{
         
         $i=1;
 
-        echo "Ang ".$angNo." Insertion Done ".PHP_EOL;
+        echo "Ang ".$angNo." Insertion Done <br/>".PHP_EOL;
         
       } //foreach done
 

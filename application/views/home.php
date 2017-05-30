@@ -1,6 +1,11 @@
-<?php $this->load->view('partials/header'); ?>
+<?php $this->load->view('partials/header');
+$next =  $ang_no+1;
+$previous =  $ang_no-1;
+
+ ?>
 <div class="content">
 	<div class="container">
+
 		<div class="row">
 			<!-- Content area starts -->
  			<div class="col-xs-12">
@@ -16,6 +21,17 @@
 					</div>
 			</div>
 			<!-- Content area starts -->
+		</div> <!-- row -->
+		<hr/>
+		<div class="row">
+			<div class="col-md-12">
+			<?php if($ang_no != 1): ?>
+				<a href="<?=site_url('home/index/'.$previous)?>"><button class="btn btn-danger">Previous</button></a>
+			<?php endif;?>
+			<?php if($ang_no != 1430): ?>
+				<a href="<?=site_url('home/index/'.$next)?>"><button class="btn btn-danger pull-right">Next</button></a>
+			<?php endif;?>
+			</div>
 		</div>
 	</div>
 </div>
