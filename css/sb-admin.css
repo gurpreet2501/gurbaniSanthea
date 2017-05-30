@@ -275,3 +275,10 @@ form#orderSearch input:first-child {
 textarea.form-control.feed-back {
     height: 113px !important;
 }
+
+#line_id_input_box {
+    font-size: 19px;
+}
+select.form-control.lines_result {
+    height: 59px !important;
+}

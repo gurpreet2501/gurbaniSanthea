@@ -324,10 +324,10 @@ hr {
     border-radius: 4px;
 }
 
-.header{
-  background: rgb(255, 165, 0);
-  min-height: 158px;
-  padding:10px;
+.header {
+    background: rgb(255, 165, 0);
+    min-height: 144px;
+    padding: 0px;
 }
 .menu {
     background: #FDC414;
@@ -360,6 +360,7 @@ h1.site-title {
     margin-left: 44px;
     margin-top: 56px;
     font-size: 42px;
+    text-align: center
 }
 select.dropdown {
     background: #FDC414;
@@ -550,4 +551,8 @@ span.glyphicon.glyphicon-hand-right {
 }
 .ang_display {
     padding: 17px;
+    border: 2px dashed ORANGE;
+}
+.border-frame {
+    border: 2px solid #888;
 }
