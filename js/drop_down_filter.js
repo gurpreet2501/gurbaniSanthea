@@ -1,31 +1,45 @@
 jQuery(function(){
+
 	 var parsedJson = '';
 	 var output = "";
-	 $('.ang_select_on_rep_page').change(function(){
-		selectedAng = ($(this).val());
-		console.log(location.origin);
-		fetch.angLines(selectedAng);
-	})
+	 var originalWord = "";
+	 $('#field-original_word').focusout(function(){
+	 		originalWord = $(this).val();
+	 
+			 $('.ang_select_on_rep_page').change(function(){
+				selectedAng = ($(this).val());
+				fetch.angLines(selectedAng);
+			})
 
-	 var fetch = {
-	 		'angLines' : function(angNo){
-				$.ajax({
-				  method: "POST",
-				  url: location.origin+'/index.php/fetch/angLines',
-				  data: { ang_no: angNo }
-				})
-				  .done(function( msg ) {
-				  	output = "";
-				    parsedJson = (JSON.parse(msg));
-				    fetch.formatResults(parsedJson)
-				  });
-				  
-	 		},
+		 var fetch = {
+		 		'angLines' : function(angNo){
+					$.ajax({
+					  method: "POST",
+					  url: location.origin+'/index.php/fetch/angLines',
+					  data: { ang_no: angNo }
+					})
+					  .done(function( msg ) {
+					  	output = "";
+					    parsedJson = (JSON.parse(msg));
+					    fetch.formatResults(parsedJson)
+					  });
+					  
+		 		},
 
 	 		'formatResults':function(parsedJson){
+	 			var str = "";
 	 			try{
 		 			$.each(parsedJson,function(key,val){
-		 				 output = output + "<option value="+val.id+"> Line No.:"+val.line_no+",  "+val.text+"</option>" ;
+		 				 str = "<option value="+val.id+">Line No.:"+val.line_no+",  "+val.text+"</option>";
+		 				
+		 				 
+		 				 if(str.search(originalWord) > 0){
+		 				 		str = "<option value="+val.id+"><span class='red'>WORD FOUND</span> Line No.:"+val.line_no+",  "+val.text+"</option>";
+		 				 }else{
+		 				 	str = "<option value="+val.id+">Line No.:"+val.line_no+",  "+val.text+"</option>";
+		 				 }
+		 				 				 
+		 				 output = output + str ;
 		 			})
 	 			}catch(err){
 
@@ -34,6 +48,7 @@ jQuery(function(){
 	 		}
 	 };
 
+ });
 	
 
 
