@@ -34,7 +34,7 @@ jQuery(function(){
 		 				
 		 				 
 		 				 if(str.search(originalWord) > 0){
-		 				 		str = "<option value="+val.id+"><span class='red'>WORD FOUND</span> Line No.:"+val.line_no+",  "+val.text+"</option>";
+		 				 		str = "<option style='color:red' value="+val.id+"><span class='red'>WORD FOUND</span> Line No.:"+val.line_no+",  "+val.text+"</option>";
 		 				 }else{
 		 				 	str = "<option value="+val.id+">Line No.:"+val.line_no+",  "+val.text+"</option>";
 		 				 }
